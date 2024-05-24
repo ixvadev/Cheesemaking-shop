@@ -163,7 +163,6 @@
 }
 .blog__post .cardspop {
   padding-bottom: 50px;
-  width: -moz-min-content;
   width: min-content;
   margin: 0 auto;
 }
@@ -201,4 +200,376 @@
 }
 .blog__post .cardspop .cardspop__cards .cardspop__card .cardspop__citats .cardspop__citat {
   color: #FD9339;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.delivery {
+  background-color: #FFFBED;
+  padding: 60px;
+}
+
+.hero__flex {
+  display: flex;
+}
+
+.hero {
+  margin-top: 20px;
+  padding: 20px;
+}
+.hero .hero_container .hero_imgs {
+  max-width: 1176px;
+  height: 300px;
+  background-image: url("../assets/imgs/hero_img.png");
+  margin-bottom: 3rem;
+}
+.hero .hero_container .hero_imgs .hero_btn_1 {
+  width: 200px;
+  height: 46px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background: #ff9f4a;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-top: 14rem;
+  margin-left: 1.85rem;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.hero .hero_container .hero_imgs .hero_btn_1:hover {
+  background: #fc9032;
+}
+.hero .hero_container .hero_end {
+  display: flex;
+  gap: 30px;
+}
+.hero .hero_container .hero_end .hero_carousels {
+  font-family: "Varela Round";
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel {
+  width: 280px;
+  height: 385px;
+  border: 1px solid rgb(71, 56, 56) 71, 56, 56;
+  margin-bottom: 2rem;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .title {
+  background: #FBE8BB !important;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .title img {
+  padding-right: 1rem;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .title span {
+  font-weight: 700;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .list_item {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  max-width: 280px;
+  border: 1px solid #E6E6E6;
+  background: #fff;
+  height: 48px;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .list_item span {
+  width: 200px;
+  font-family: sans-serif;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .list_item .dropright {
+  display: flex;
+  margin-left: 2rem;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel .carousel_list .list_item .dropright img {
+  width: 12px;
+  height: 12px;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 {
+  width: 280px;
+  height: 385px;
+  border: 1px solid rgb(71, 56, 56) 71, 56, 56;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .title {
+  background: #FBE8BB !important;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .title img {
+  padding-right: 1rem;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .title span {
+  font-weight: 700;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .list_item {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding: 1rem 2rem;
+  max-width: 280px;
+  border: 1px solid #E6E6E6;
+  background: #fff;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .list_item span {
+  width: 200px;
+  font-family: sans-serif;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .list_item .dropright {
+  display: flex;
+  margin-left: 2rem;
+}
+.hero .hero_container .hero_end .hero_carousels .left_carousel_2 .carousel_list .list_item .dropright img {
+  width: 12px;
+  height: 12px;
+}
+.hero .hero_container .hero_end .hero_products {
+  width: 864px;
+}
+.hero .hero_container .hero_end .hero_products .product_btn {
+  padding-bottom: 40px;
+}
+.hero .hero_container .hero_end .hero_products .product_btn button {
+  background: transparent;
+  border: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-right: 25px;
+  color: #808080;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box {
+  max-width: 864px;
+  height: 660px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card {
+  margin-bottom: 3rem;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .products_title {
+  padding-bottom: 25px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .products_title h2 {
+  font-size: 22px;
+  font-family: "Roboto";
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards {
+  margin-bottom: 1rem;
+  max-width: 864px;
+  display: flex;
+  gap: 10px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card {
+  text-align: center;
+  width: 208px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  border-radius: 5px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .checkes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .checkes img {
+  cursor: pointer;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .name {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  max-width: 200px;
+  font-family: "Roboto";
+  border-bottom: 1px solid #E6E6E6;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .name p {
+  font-size: 16px;
+  text-align: left;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn {
+  text-align: left;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn .summa p {
+  padding-bottom: 0.5rem;
+  font-family: "Roboto";
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn .summa p span {
+  font-size: 12px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn .summa del {
+  color: rgb(255, 0, 0);
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn .btn button {
+  padding: 0.2rem;
+  max-width: 90px;
+  font-family: "Roboto";
+  height: 38px;
+  background: #ff9f4a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .first_box_card .product_cards .product_card .summa_and_btn .btn button:hover {
+  background-color: #fc9032;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .products_title {
+  padding-bottom: 25px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .products_title h2 {
+  font-size: 22px;
+  font-family: "Roboto";
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards {
+  margin-bottom: 1rem;
+  max-width: 864px;
+  display: flex;
+  gap: 10px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card {
+  text-align: center;
+  width: 208px;
+  height: 300px;
+  background: #fff;
+  border: 1px solid #E7E7E7;
+  border-radius: 5px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .checkes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .checkes img {
+  cursor: pointer;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .name {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  max-width: 200px;
+  font-family: "Roboto";
+  border-bottom: 1px solid #E6E6E6;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .name p {
+  font-size: 16px;
+  text-align: left;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn {
+  text-align: left;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn .summa p {
+  padding-bottom: 0.5rem;
+  font-family: "Roboto";
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn .summa p span {
+  font-size: 12px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn .summa del {
+  color: rgb(255, 0, 0);
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn .btn button {
+  padding: 0.2rem;
+  max-width: 90px;
+  font-family: "Roboto";
+  height: 38px;
+  background: #ff9f4a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.hero .hero_container .hero_end .hero_products .products_card_box .second_box_card .product_cards .product_card .summa_and_btn .btn button:hover {
+  background-color: #fc9032;
+}
+
+.deli {
+  background-color: #FFFBED;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.deli .homedoc h2, .deli .homedoc h3 {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #4E2D2D;
+  font-size: 28px;
+  font-family: Circe Rounded, sans-serif;
+}
+.deli .cardspeds {
+  display: flex;
+  gap: 10px;
+}
+.deli .cardspeds .cardspeds_ped {
+  background-color: #ffffff;
+  border: 1px solid #E7E7E7;
+  border-radius: 5px;
+}
+.deli .cardspeds .cardspeds_ped .cardsped__h1 {
+  font-size: 22px;
+  color: #4E2D2D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.deli .cardspeds .cardspeds_ped .cardspeds_ped__cantent {
+  line-height: 1.5;
+  color: #808080;
+  font-size: 15px;
+  padding: 30px;
+}
+.deli .cardspeds .cardspeds_ped img {
+  background-color: #FD9339;
+  border-radius: 50%;
+  border: 20px, solid #fd9339;
+}
+.deli .locations {
+  margin: 30px;
+  display: flex;
+}
+.deli .locations .locations__card {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.deli .locations .locations__card h3 {
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.deli .locations .locations__card .h3 {
+  color: #4E2D2D;
+}
+.deli .locations .locations__card .location__doc {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.deli .locations .locations__card p {
+  color: #666666;
+  font-size: 18px;
+}
+.deli .locations .locations__card .ofes {
+  color: #fd9339;
+}
+.deli .locations .locationdastop {
+  display: flex;
+}
+
+.jadval .jadval_flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px;
+}
+.jadval .jadval__pochta {
+  background-color: #4E2D2D;
+  color: #fff;
+}
+.jadval .jadval__color {
+  background-color: #FBE8BB;
+}
+.jadval jadvalh1 {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */
