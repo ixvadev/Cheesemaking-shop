@@ -1,0 +1,172 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- CSS
+        link(rel="stylesheet", href="../css/main.css")
+        //- FavIcon
+        link(rel="icon", href="../assets/reviews-img/Group 282.svg")
+        //- Title
+        title 09.About
+    body 
+        //- Aside Start 
+        include ./components/aside.pug
+        //- Aside Start 
+
+        //- HEADER START
+        include ./components/header.pug
+        //- HEADER END
+
+        //- main start
+        main 
+            div.container
+                div.element
+                    p Главная
+                    img(src="../assets/logos/dropright.svg", alt="")
+                    p.element__p О нашей компании
+                div.items-grid
+                    div.hero
+                        .hero_container
+                            .hero_end 
+                                .hero_carousels
+                                    .left_carousel   
+                                        ol.carousel_list 
+                                            li.list_item.title  
+                                                img(src="../assets/logos/cheese.svg" alt="")
+                                                span Ингредиенты
+                                            li.list_item 
+                                                span Закваски для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Ферменты для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Хлористый кальций
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")             
+                                            li.list_item 
+                                                span Плесень для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Кисломолочные закваски
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Красители для сыра 
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item
+                                                span Специи для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="") 
+                                    .left_carousel_2  
+                                        ol.carousel_list 
+                                            li.list_item.title  
+                                                img(src="../assets//logos/bowl.svg" alt="")
+                                                span Оборудование
+                                            li.list_item 
+                                                span Формы для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Латексное покрытие
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Воск для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")             
+                                            li.list_item 
+                                                span Термоусадочные пакеты
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Дренажные коврики
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Дренажные мешки и салфетки для прессования 
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item
+                                                span Дренажные контейнеры
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="") 
+                    div 
+                        div.elements__element
+                            div.elements__element-heading 
+                                h2 О нашей компании
+                            div.element__items 
+                                div 
+                                    h3 Сыроделие
+                                div 
+                                    img(src="../assets/about-img/Rectangle 101.svg", alt="")
+                        div.title
+                            div.title__heading 
+                                h3 Наши мастера
+                            div.title__content 
+                                div.title__content-item 
+                                    img(src="../assets/about-img/image 12.svg", alt="")
+                                    div.title__content-item__p 
+                                        h3 Ирина
+                                        p.item-p «По-рижский фермер»
+                                        p При заказе я всегда уверена в качестве товара – компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.
+                                div.title__content-item 
+                                    img(src="../assets/about-img/image 13.svg", alt="")
+                                    div.title__content-item__p  
+                                        h3 Алексей
+                                        p.item-p «Cыроварня Ильиных»
+                                        p При заказе я всегда уверена в качестве товара – компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.
+                                div.title__content-item 
+                                    img(src="../assets/about-img/image 14.svg", alt="")
+                                    div.title__content-item__p  
+                                        h3 Сергей Иванович
+                                        p.item-p КФХ Елизаровых
+                                        p При заказе я всегда уверена в качестве товара – компания не скрывает сертификаты качества, эпидемиологические заключения и другую информацию.
+                        div.card 
+                            div.card__h3 
+                                h3 Преимущества работы с нашим магазином
+                            div.card__cards 
+                                div.card__cards-items 
+                                    img(src="../assets/about-img/phone-call 1.svg", alt="")
+                                    p Профессиональная информационная поддержка, вы можете в любой момент связаться с нами
+                                div.card__cards-items  
+                                    img(src="../assets/about-img/shield-protected-checkmark 1.svg", alt="")
+                                    p Гарантия качества всей продукции, при заказе товара вы можете увидеть сертификат
+                                div.card__cards-items  
+                                    img(src="../assets/about-img/percent-refresh 1.svg", alt="")
+                                    p Программа лояльности, бонусы, акции, лучшие предложения только у нас
+                                div.card__cards-items  
+                                    img(src="../assets/about-img/delivery-07 1.svg", alt="")
+                                    p Вы покупаете всё в одном месте или оставить запрос и мы превезем под заказ
+            div.about-img 
+                div.about-img__flex 
+                    img(src="../assets/about-img/left (1).svg", alt="")
+                    img(src="../assets/about-img/right (1).svg", alt="")
+            div.container 
+                div.item-flex 
+                    div.item-flex__paragraf
+                        h2 о нашем магазине
+                        br
+                        p Интернет-магазин «ЛяЧиз» предлагает своим покупателям широчайший ассортимент оборудования, ингредиентов и аксессуаров для домашнего сыроделия.
+                        br
+                        p С нашей продукцией у Вас появится возможность приготовить любой сыр в домашних условиях и насладиться всеми его оттенками и разнообразием, а также Вы окунётесь в мир сыроделия и узнаете всё о приготовлении любого вида сыра своими руками.
+                        br
+                        p С нашим оборудованием у вас появится возможность расширить свои способности, а также приготовить вкусный и качественный сыр.
+                        br
+                        p "ЛяЧиз" за качество, надёжность, технологичность и презентабельность! Будем и дальше радовать вас большим ассортиментом и новинками,  а вы нас - своими заказами!
+                    div.item-flex__img 
+                        img(src="../assets/about-img/Rectangle 90.svg", alt="")
+                        img(src="../assets/about-img/Rectangle 93.svg", alt="")
+                        img(src="../assets/about-img/Rectangle 94.svg", alt="")
+                        img(src="../assets/about-img/Rectangle 95.svg", alt="")
+
+
+                    
+        //- footer start
+        include ./components/footer.pug
+        //- footer end
