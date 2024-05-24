@@ -1,0 +1,159 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- CSS
+        link(rel="stylesheet", href="../css/main.css")
+        //- FavIcon
+        link(rel="icon", href="../assets/reviews-img/Group 282.svg")
+        //- Title
+        title 08.Reviews
+    body 
+        //- Aside Start 
+        include ./components/aside.pug
+        //- Aside Start 
+
+        //- HEADER START
+        include ./components/header.pug
+        //- HEADER END
+
+        //- main start
+        main 
+            div.container
+                div.element
+                    p Главная
+                    img(src="../assets/logos/dropright.svg", alt="")
+                    p.element__p Отзывы наших покупателей
+                div.items-grid
+                    div.hero
+                        .hero_container
+                            .hero_end 
+                                .hero_carousels
+                                    .left_carousel   
+                                        ol.carousel_list 
+                                            li.list_item.title  
+                                                img(src="../assets/logos/cheese.svg" alt="")
+                                                span Ингредиенты
+                                            li.list_item 
+                                                span Закваски для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Ферменты для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Хлористый кальций
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")             
+                                            li.list_item 
+                                                span Плесень для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Кисломолочные закваски
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Красители для сыра 
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item
+                                                span Специи для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="") 
+                                    .left_carousel_2  
+                                        ol.carousel_list 
+                                            li.list_item.title  
+                                                img(src="../assets//logos/bowl.svg" alt="")
+                                                span Оборудование
+                                            li.list_item 
+                                                span Формы для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Латексное покрытие
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Воск для сыра
+                                                .dropright 
+                                                    img(src="../assets/logos/dropright.svg" alt="")             
+                                            li.list_item 
+                                                span Термоусадочные пакеты
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Дренажные коврики
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item 
+                                                span Дренажные мешки и салфетки для прессования 
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="")
+                                            li.list_item
+                                                span Дренажные контейнеры
+                                                //- .dropright 
+                                                //-     img(src="../../assets/06.BlogPost/dropright.svg" alt="") 
+                    div
+                        div.content__item 
+                            div.content__item-heading 
+                                h2 отзывы покупателей
+                            div.content__item-items 
+                                p Что бы оставить отзыв необходимо
+                                img(src="../assets/reviews-img/Group.svg", alt="")
+                                p.paragraf Авторизоваться
+                        div.content__cards 
+                            div.content__card 
+                                div.content__card-first 
+                                    div 
+                                        b.content__card-first-item1 Светлана Петровна
+                                        p.content__card-first-item2 г. Москва
+                                    div 
+                                        img(src="../assets/reviews-img/4 Stars.svg", alt="")
+                                div.content__card-second 
+                                    p Заказываю сама и рекомендую всем! Всегда в наличии все необходимое для моего хобби: закваски, ферменты и еще много чего. Доставка, оплата - быстро и четко. Для тех, кто только пробует себя в сыроделии - проконсультируют и помогут. 
+                                div.content__card-third  
+                                    img(src="../assets/reviews-img/Rectangle 240.svg", alt="")
+                                    img(src="../assets/reviews-img/Rectangle 241.svg", alt="")
+                                    img(src="../assets/reviews-img/Rectangle 242.svg", alt="")
+                                div.content__card-fourth 
+                                    p 24 октября 2020
+                            div.content__card 
+                                div.content__card-first 
+                                    div 
+                                        b.content__card-first-item1 Irina Volkiva
+                                        p.content__card-first-item2 г. Москва
+                                    div 
+                                        img(src="../assets/reviews-img/4 Stars.svg", alt="")
+                                div.content__card-second 
+                                    p Заказываю сама и рекомендую всем! Всегда в наличии все необходимое для моего хобби: закваски, ферменты и еще много чего. Доставка, оплата - быстро и четко. Для тех, кто только пробует себя в сыроделии - проконсультируют и помогут. 
+                                div.content__card-third  
+                                    img(src="../assets/reviews-img/Rectangle 240 (1).svg", alt="")
+                                    img(src="../assets/reviews-img/Rectangle 241 (1).svg", alt="")
+                                div.content__card-fourth 
+                                    p 24 октября 2020
+                            div.content__card 
+                                div.content__card-first 
+                                    div 
+                                        b.content__card-first-item1 Светлана Петровна
+                                        p.content__card-first-item2 г. Санкт-Петербург
+                                    div 
+                                        img(src="../assets/reviews-img/4 Stars.svg", alt="")
+                                div.content__card-second 
+                                    p Заказываю сама и рекомендую всем! Всегда в наличии все необходимое для моего хобби: закваски, ферменты и еще много чего. Доставка, оплата - быстро и четко. Для тех, кто только пробует себя в сыроделии - проконсультируют и помогут. 
+                                div.content__card-fourth 
+                                    p 24 октября 2020
+                            div.content__card 
+                                div.content__card-first 
+                                    div 
+                                        b.content__card-first-item1 Ксения Яковенко
+                                        p.content__card-first-item2 г. Москва
+                                    div 
+                                        img(src="../assets/reviews-img/4 Stars.svg", alt="")
+                                div.content__card-second 
+                                    p Заказываю сама и рекомендую всем! Всегда в наличии все необходимое для моего хобби: закваски, ферменты и еще много чего. Доставка, оплата - быстро и четко. Для тех, кто только пробует себя в сыроделии - проконсультируют и помогут. 
+                                div.content__card-fourth 
+                                    p 24 октября 2020
+        //- main end 
