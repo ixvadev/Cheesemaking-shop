@@ -1,0 +1,321 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title 05.1.Receipes
+        //- css link start
+        link(rel="stylesheet", href="./css/main.css")
+        //- css link finish
+    body
+        //- Aside Start
+        include  ./components/aside.pug
+        //- Aside End
+
+        //- Header Start
+        include ./components/header.pug
+        //- Header End
+
+        //- Main Start
+        main.main
+          .modal__container.d-none
+            .modal__menu
+              .modal__title
+                h3 Выберите производителя
+                button 
+                  img(src="./assets/recipies/close btn.png")
+              .modal__box
+                img(src="./assets/recipies/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="./assets/recipies/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
+              .modal__box
+                img(src="./assets/recipies/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="./assets/recipies/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
+              .modal__box
+                img(src="./assets/recipies/modal__retsept.png")
+                .modal__text
+                  p Sacco, Италия 
+                    span 
+                      img(src="./assets/recipies/star.png", alt="")
+                  h4 Ароматообразующая закваска LH 100 LYO (10D)
+                  span 860 руб. / 1 шт.
+                  span 
+                    button В корзину
+          //- Hero Start
+          section.hero.container
+              .hero_container
+                .hero_end 
+                  .hero_carousels
+                    .left_carousel   
+                      ol.carousel_list 
+                        li.list_item.title  
+                            img(src="./assets/header/cheese.svg" alt="")
+                            span Ингредиенты
+                        li.list_item 
+                            span Закваски для сыра
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Ферменты для сыра
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Хлористый кальций
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")             
+                        li.list_item 
+                            span Плесень для сыра
+                            .dropright 
+                                img(src="./assets/logos/dropright.svg" alt="")
+                        li.list_item 
+                            span Кисломолочные закваски
+                            .dropright 
+                                img(src="./assets/logos/dropright.svg" alt="")
+                        li.list_item 
+                            span Красители для сыра 
+                            .dropright 
+                                img(src="./assets/logos/dropright.svg" alt="")
+                        li.list_item
+                            span Специи для сыра
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="") 
+                    .left_carousel_2  
+                      ol.carousel_list 
+                        li.list_item.title  
+                            img(src="./assets/header/bowl.svg" alt="")
+                            span Оборудование
+                        li.list_item 
+                            span Формы для сыра
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Латексное покрытие
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Воск для сыра
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")             
+                        li.list_item 
+                            span Термоусадочные пакеты
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Дренажные коврики
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item 
+                            span Дренажные мешки и салфетки для прессования 
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                        li.list_item
+                            span Дренажные контейнеры
+                            .dropright 
+                                img(src="./assets/header/dropright.svg" alt="")
+                  //- retsept menuu start
+                  .retsept__container.d-block.container
+                    .retsept__sir 
+                      h1.card__title рецепты сыров
+                      .retsept__card
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_1.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_2.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_3.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_4.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_5.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                        .retsept__item
+                          img(src="./assets/recipies/retsept_sir_6.png", alt="")
+                          .sir__title
+                            h3 Молодые сыры
+                            h5 Смотреть
+                    .yaqinda__qushilgan
+                      h1.card__title Последние добавленные
+                      .yaqinda__qushilgan_card
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_1.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_2.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_3.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_4.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_5.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_6.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                            button Читать далее 
+                    .davomi
+                      button.ckickMe Загрузить еще
+                  //- retsept menuu finish
+                  .sir__tavsiv.d-none
+                    h1.tavsiv__title Описание сыра
+                    .retsept__sir__text
+                      p Это мягкий вид сыра, который получают из коровьего молока. Считается одним из самых вкусных французских лакомств. Его изготавливают во многих странах Европы и в разных вариациях – де Мелен, де Мо, де Куломье.
+                      p Для сыра характерен бледный оттенок. Имеет «благоприятную» плесень. Отличается наличием не сильного запаха нашатыря. Его приятный вкус буквально очаровывает (чем-то напоминает камамбер). При добавлении специальных ферментов может образовываться корочка.
+                    .sir__haqida_img 
+                      img(src="./assets/recipies/sir_haqida_1.png", alt="")
+                      img(src="./assets/recipies/sir_haqida_2.png", alt="")
+                      img(src="./assets/recipies/sir_haqida_3.png", alt="")
+                      img(src="./assets/recipies/sir_haqida_4.png", alt="")
+                    .retsept__sir__text
+                      p Хорошо подходит к праздничному застолью. Сочетается с закусками, бутербродами, супами и салатами. Также этот молочный продукт часто применяют для приготовления пикантных заправок и соусов. Некоторые сочетают Бри с мясом, овощами и фруктами. Поэтому можно считать этот сыр универсальным лакомством
+                      p В его химическом составе содержится витамин А. Он помогает вырабатывать коллаген, который улучшает цвет кожи. Витамин В благоприятно влияет на нервную систему человека. Это очень сильно помогает при усталости и бессоннице.
+                    .retsept__korzinka 
+                      h3.table__title Ингредиенты
+                      table 
+                        tr 
+                          td.left-align Фермент – 1/8 ч.л
+                          td.right-align 
+                            button В корзину
+                        tr 
+                          td.left-align Термофильная закваска STI-12 (50U)
+                          td.right-align 
+                            button В корзину
+                        tr 
+                          td.left-align Белая плесень – 10 грамм
+                          td.right-align 
+                            button В корзину
+                        tr 
+                          td.left-align Молоко – 10 литров
+                        tr 
+                          td.right-align 20% солевой раствор: соль-1 кг, вода кипяченая-4 л, хлористый кальций- 1 ст.л, уксус столовый 9%- 1 ч.л.
+                    .retsept__korzinka 
+                      h3.table__title Оборудование
+                      table
+                        tr
+                          td.left-align Кастрюля из нержавейки
+                          td.right-align
+                            button В корзину
+                        tr
+                          td.left-align Дуршлаг, шумовка и марля
+                          td.right-align
+                            button В корзину
+                        tr
+                          td.left-align Термометр для молока
+                          td.right-align
+                            button В корзину
+                        tr
+                          td.left-align Форма для сыра Бри
+                          td.right-align
+                            button В корзину
+                        tr
+                          td.left-align Пищивой пульвилизатор
+                          td.right-align
+                            button В корзину
+                    .retsept__sir__text 
+                      h1.tavsiv__title польза сыра
+                      p Который значительно укрепляет костную ткань. В сыре содержится много других минералов – магний, фосфор кадий, натрий, сера, хлор и др. Но при этом практически отсутствует лактоза. Поэтому Бри могут легко употреблять в пищу люди с аллергией на лактозу.
+                      p Пищевая ценность сыра: в 100 граммах содержится 334 калория. Жиры – 28 грамм, холестерин – 100 мг, натрий – 629 мг, калий – 152 мг, углеводы – 0,5 грамм, белки – 21 грамм.
+                      p Рецепт сыра Бри достаточно простой. Вам нужно подготовить все необходимые ингредиенты и оборудование. Следуйте рекомендованному процессу приготовления и не нарушайте дозировку. В таком случае у вас обязательно получится настоящий французский сыр.
+                    .vino__img 
+                      img(src="./assets/recipies/retsept__vino.png", alt="")
+                    .tayyotlash 
+                      h2.tavsiv__title как приготовить в домашних условиях
+                      .tayorlash__box 
+                        h1 01
+                        p Поставьте на плиту кастрюлю и залейте в нее молоко (это нужно делать через марлю и дуршлаг, чтобы никакой мусор не попал). Установите термометр и нагрейте жидкость до температуры 32 градуса Цельсия.
+                      .tayorlash__box 
+                        h1 02
+                        p Внесите закваску и подождите пару минут пока она будет регидрироваться. Затем равномерно перемешайте смесь.
+                      .tayorlash__box 
+                        h1 03
+                        p Спустя 30 минут возьмите стакан с 15-20 мл воды и растворите в нем фермент. Вылейте жидкость в молоко и оставьте эту смесь на 90 минут.
+                      .tayorlash__box 
+                        h1 04
+                        p Поставьте на плиту кастрюлю и залейте в нее молоко (это нужно делать через марлю и дуршлаг, чтобы никакой мусор не попал). Установите термометр и нагрейте жидкость до температуры 32 градуса Цельсия.
+                    .mashxur__retseptlar.d-none
+                      h1.tavsiv__title Рекомендации по рецептам:
+                      .mashxur__retseptlar__text
+                        ol 
+                          li Пастеризация молока при +68 °C в течение 10 мин дает возможность достичь нужной нам цели без риска перегрева молока. 
+                          li Чтобы определить «точку флокуляции» - время, за которое происходит превращения молочной жидкости в сырный сгусток, нужно развести фермент в небольшом количестве воды и ввести в молоко, размешивая в течении 40 секунд.  
+                          li После берем крышечку и кладем на поверхность молока, ждем пока она не престанет вращаться, изредка подталкивая крышечку пальцем - проверяем . 
+                        p Как только крышечка застыла – мы достигли точки флокуляции. Как только крышечка застыла – мы достигли точки флокуляции. Время от момента внесения фермента и до образования сгустка засекаем – это и будет искомый показатель, который умножаем на 3. Так мы получаем время, которое выдерживаем с момента засыпки порошка до нарезки сгустка. Например, если мы внести фермент в 12.10, крышечка перестала двигаться через 10 минут, сгусток можно нарезать в 12.40.  
+                        
+                        ol 
+                          li Деление зерна следует начинать с нарезки вертикальных полос. После 5 минут ожидания, режутся горизонтальные полосы и ждем еще 5 минут. Такой подход позволит сохранить целостность зерна и достичь оптимального (не очень быстрого) отхождения сыворотки. 
+                          li Оптимальная температура кипятка при вытягивании сыра Моцарелла +70 °C. 
+                          li Изучение рецептур по обучающим роликам – хороший способ изучить технологию и составить список необходимых для приготовления сыра товаров.
+                .popular__retsept.d-none
+                  h1.tavsiv__title популярные рецепты
+                  .yaqinda__qushilgan_card
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_1.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                          button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_2.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                          button Читать далее 
+                        .yaqinda__qushilgan_item
+                          img(src="./assets/recipies/retsept_sir_3.png", alt="")
+                          .yaqinda__qushilgan__title 
+                            h5 Сырная тарелка
+                            p Особенно характерно наличие дырочек разных размеров в структуре швейцарских сортов...
+                          button Читать далее 
+
+          //- Hero End
+
+        //- Footer Start
+        include  ./components/footer.pug
+        //- Footer End
+        script(src='./js/no_enter.js')
