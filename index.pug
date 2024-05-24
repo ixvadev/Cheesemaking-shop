@@ -3,8 +3,50 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title Cheesemaking
+        script(defer, src="../js/index.js")
+        link(rel="stylesheet", href="../css/main.css")
+        //- FavIcon
+        link(rel="icon", href="../assets/reviews-img/Group 282.svg")
+        //- Title
+        title Cheesemaking-shop
     body 
+
+        //- Aside Start 
+        include ./components/aside.pug
+        //- Aside Start 
+
+
         //- HEADER START
-        include "./components/header.pug"
+        include ./components/header.pug
         //- HEADER END
+
+
+        //- Main Start
+        main.main 
+
+            //- Hero Start
+            include ./components/hero.pug
+            //- Hero End
+
+
+            //- Second Start
+            include ./components/second.pug
+            //- Second End
+
+
+            //- About Start
+            include ./components/about.pug
+            //- About End
+
+
+            //- Watching Start
+            include ./components/watchings.pug
+            //- Watching End
+
+        //- Main End 
+
+        
+        
+        //- Footer Start
+        include ./components/footer.pug
+        //- Footer End
