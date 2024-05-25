@@ -1,0 +1,262 @@
+.retsept__container {
+    display: none;
+
+    .retsept__card {
+        .retsept__item img {
+            // width: 100%;
+            position: absolute;
+            top: 0px;
+        }
+
+        .sir__title {
+            position: absolute;
+            bottom: 0px;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .retsept__item {
+            width: 280px;
+            height: 140px;
+            position: relative;
+        }
+    }
+
+    .yaqinda__qushilgan {
+        .yaqinda__qushilgan__title {
+            // padding: 10px;
+            background-color: #fff;
+        }
+
+        p,
+        h5 {
+            font-size: 16px;
+            // color: rgb(137, 137, 137);
+            width: 280px;
+            padding: 15px;
+        }
+
+        button {
+            border: none;
+            background-color: inherit;
+            color: goldenrod;
+            text-decoration: underline;
+
+        }
+    }
+
+    .retsept__card,
+    .yaqinda__qushilgan_card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+    }
+
+    .card__title {
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+
+    button {
+        padding: 7px 15px;
+        border-radius: 5px;
+        border: 1px solid goldenrod;
+        background: rgba(253, 147, 57, 1);
+        color: rgb(255, 255, 255);
+        margin-top: 5%;
+    }
+}
+
+.sir__tavsiv {
+    .tavsiv__title {
+        margin: 5% 0px 2% 0px;
+    }
+
+    .retsept__sir__text {
+        width: 90%;
+        color: rgb(82, 82, 82);
+
+        p {
+            margin-top: 15px;
+        }
+    }
+
+    .sir__haqida_img {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+
+        img {
+            margin: 0px 15px;
+        }
+    }
+
+
+    .retsept__korzinka {
+        background: rgba(255, 245, 214, 1);
+        padding: 20px;
+        margin-top: 10px;
+
+        table {
+            width: 100%;
+
+            button {
+                width: 93px;
+            }
+        }
+
+        .left-align {
+            text-align: left;
+        }
+
+        .right-align {
+            text-align: right;
+        }
+
+        .table__title {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        td {
+            padding: 8px 0px;
+        }
+
+        button {
+            padding: 7px 15px;
+            border-radius: 5px;
+            border: 1px solid goldenrod;
+            background: rgba(253, 147, 57, 1);
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .tayorlash__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding: 15px;
+        background-color: #fff;
+
+        h1 {
+            padding: 15px;
+            color: rgba(253, 147, 57, 1);
+        }
+
+        p {
+            line-height: 25px;
+            width: 800px;
+            padding: 15px;
+        }
+    }
+
+    .mashxur__retseptlar__text {
+        ol {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        p {
+            margin: 20px 0px;
+        }
+    }
+
+    .vino__img {
+        margin: 20px 0px;
+    }
+
+}
+
+.popular__retsept {
+
+    .yaqinda__qushilgan_card {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        margin-top: 10px;
+        padding: 15px;
+
+        .yaqinda__qushilgan_item {
+            background-color: #fff;
+            width: 280px;
+
+            p,
+            h5 {
+                padding: 10px 10px 0px 10px;
+
+            }
+        }
+
+        button {
+            padding: 17px 7px;
+            border: none;
+            background-color: inherit;
+            color: goldenrod;
+            text-decoration: underline;
+        }
+    }
+}
+
+.davomi {
+    width: 150px;
+    margin: 5% auto;
+}
+
+.modal__container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(15px);
+    z-index: 1111;
+
+    .modal__menu {
+        width: 480px;
+        margin: 6% auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .modal__box {
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        padding: 20px;
+        border: 1px solid rgba(230, 230, 230, 1);
+        border-radius: 10px;
+    }
+
+    .modal__title {
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        margin-bottom: 5%;
+
+        button {
+            border: none;
+            background-color: inherit;
+        }
+    }
+
+    .modal__text {
+        h4 {
+            padding: 10px 0px;
+        }
+
+        span {
+            color: rgba(253, 147, 57, 1);
+        }
+
+        button {
+            padding: 7px 15px;
+            border-radius: 5px;
+            border: 1px solid goldenrod;
+            background: rgba(253, 147, 57, 1);
+            color: rgb(255, 255, 255);
+            margin-top: 5%;
+        }
+    }
+}
