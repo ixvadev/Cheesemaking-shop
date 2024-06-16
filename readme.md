@@ -29,7 +29,7 @@ pug -w ./ -o ./html -P
 
 ## ___`Frontend-11 Group`___
 
-|№  | Dev's     | Mobile Page                       |
+|№  | Dev's     |  Page                             |
 |---|-----------|-----------------------------------|
 | 1 | Ulug'bek  |  Homepage                         |
 | 2 | Avazbek   |  Product card                     |
